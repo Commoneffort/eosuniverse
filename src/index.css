@@ -13,18 +13,26 @@ q:root{
 }
 
 .content{
-	max-width:100%;
-	max-height:60;
+	width:100%;
+	height:100%;
 	position:fixed;
 	font-family: 'Oswald', sans-serif;
 	color:white;
+}
+.text-content{
+	width:100%;
+	height:100%;
+	position:fixed;
+	font-family: 'Oswald', sans-serif;
+	color:white;
+	top:25%;
 }
 
 .title {
     font-family: 'Orbitron', sans-serif;
     font-size: 60px;
     top:40px;
-    left:40px;
+    left:0px;
     margin:0;
     background: -webkit-linear-gradient(#d07ae6, rgb(106, 82, 212));
     -webkit-background-clip: text;
@@ -88,8 +96,8 @@ q:root{
 }
 
 /* ---- typewriter ---- */ 
-.p {
-    color: #00FF41;
+p {
+    color: white;
     font-family: 'Courier New', Courier, monospace;
 	font-size: 20px;
 	}
@@ -111,7 +119,7 @@ q:root{
     }
 
     to {
-        width: 400px;
+        width: 430px;
     }
 }
 

@@ -9,7 +9,7 @@ class Header extends Component {
         <div className="container">
         	<div className="hover">
          
-            <NavLink to="/"><p class="line typing"><h1 class="title">GalaxEOS</h1></p></NavLink>
+            <NavLink to="/"><p class=" title line typing">GalaxEOS</p></NavLink>
         
         	</div>
         </div>
